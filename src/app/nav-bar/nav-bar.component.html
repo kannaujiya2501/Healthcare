@@ -1,0 +1,53 @@
+<!-- HATIM CODE -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <a class="navbar-brand" routerLink="/"><img src="https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/66/undefined/external-hospital-medical-smashingstocks-outline-color-smashing-stocks.png"/></a> -->
+    <a class="navbar-brand" routerLink="/"><img [src]="logosvg"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Doctors">Doctor's Timetable</a>
+        </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="All-Appointments">All Appointments</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Book-Appointment">Book an Physical <br> Appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="About-Us">About-Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Our-Services">Our-Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Free-Checkup">Book-FreeCheckup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Show-Tests">Book Lab-Tests &<br>Diagnostics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Donation">Donation for <br> cancer patients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="book-Medicine">Buy-Medicine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Auth">Login</a>
+          </li>
+      </ul>
+    </div>
+    <div class="carticon">
+      <button routerLink="cart" class="btn btn-primary-end">
+        <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+        <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+    </button>
+    </div>
+  </nav>
+
+
+

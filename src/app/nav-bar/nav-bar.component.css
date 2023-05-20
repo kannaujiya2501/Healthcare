@@ -1,0 +1,22 @@
+.navbar-brand{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.carticon{
+    padding-right: 5%;
+}
+
+#btn{
+
+    text-align: center;
+  
+    padding-top: 20px;
+  
+    padding-bottom: 20px;
+  
+    width: 60%;
+  
+    margin: auto;
+  
+  }
